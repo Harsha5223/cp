@@ -1,0 +1,1 @@
+remove Linked list elements
