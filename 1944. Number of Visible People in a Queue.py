@@ -6,3 +6,6 @@ class Solution:
             while stack and heights[stack[-1]]<=height:
                 ans[stack.pop()] +=1
             if stack:
+                ans[stack[-1]]+=1
+            stack.append(i)
+        return ans
